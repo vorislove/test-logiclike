@@ -1,0 +1,12 @@
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(228px, 1fr));
+  gap: 24px;
+}
+
+.loader_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
